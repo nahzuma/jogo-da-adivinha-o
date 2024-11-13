@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Adivinhação</h1>
+        <p>Eu escolhi um número entre 1 e 100. Tente adivinhar!</p>
+        <input type="number" id="guessInput" placeholder="Digite seu palpite" min="1" max="100">
+        <button id="submitGuess">Enviar Palpite</button>
+        <p id="feedback"></p>
+        <p id="attempts">Tentativas restantes: 5</p>
+        <div id="imageContainer">
+            <img id="successImage" src="Imagens/Acertou.gif" alt="Você acertou!" style="display: none;">
+            <img id="errorImage" src="Imagens/Errou.gif" alt="Você errou!" style="display: none;">
+        </div>
+        <button id="resetGame" style="display: none;" class="reset-button">Reiniciar Jogo</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://linkedin.com/in/gabriel-allan-888518275/" target="_blank">
+                <img src="Imagens/LinkedIn.jpg" alt="LinkedIn" class="logo">
+            </a>
+            <a href="https://github.com/nahzuma" target="_blank">
+                <img src="Imagens/GitHub.jpg" alt="GitHub" class="logo">
+            </a>
+            </a>
+            <a href="https://www.instagram.com/allan_gaeb/" target="_blank">
+                <img src="Imagens/Instagram.jpg" alt="Instagram" class="logo">
+            </a>
+        </div>
+        <p>Gabriel Allan Ribeiro da Silva © 2024. Todos os direitos reservados.</p>
+        <p><i><gabriel.allan@souunit.com.br</i></p>
+    </footer>
+</body>
+</html>
